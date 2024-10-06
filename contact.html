@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Innomatics Research Labs</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Header and Navigation Bar -->
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">
+                <img src="https://www.innomatics.in/wp-content/uploads/2023/01/Innomatics-Logo1.png" alt="Innomatics Logo" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link" href="awards.html">Awards</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="contacts.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Get In Touch with Us!</h2>
+            <p class="text-center lead">We are ready to help you. For immediate inquiry or joining, please call us at:</p>
+            <p class="text-center lead"><strong>Hyderabad: +91-1800 4122 6807, Pune: +91-9951666671</strong></p>
+            
+            <div class="row mb-5">
+                <div class="col-md-4">
+                    <h5>Kukatpally — Hyderabad</h5>
+                    <p>#205, 2nd Floor, Fortune Signature, Near JNTU Metro Station, Kukatpally, Hyderabad, Telangana 500085</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Gachibowli — Hyderabad</h5>
+                    <p>2nd Floor, Leeway, BP Raju Marg, Opp. Sarath City Capital Mall, Beside Subbayagari Hotel, Whitefields, Kondapur, Telangana 500081</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Pune</h5>
+                    <p>2nd Floor, Sai Sayaji Apartment, Paud Rd, beside VANAZ Metro, Ramkrishna Paramhans Nagar, Kothrud, Pune, Maharashtra 411038</p>
+                </div>
+            </div>
+
+            <h4>Contact Information</h4>
+            <ul>
+                <li><strong>Phone/Whatsapp:</strong> +91-1800 4122 6807 / +91-9951666671 / +91-6304126766 / +91-9347804375</li>
+                <li><strong>Email for Courses:</strong> info@innomatics.in</li>
+                <li><strong>For Careers:</strong> hr@innomatics.in</li>
+                <li><strong>For Franchise:</strong> vishwanath.nyathani@innomatics.in</li>
+            </ul>
+
+            <!-- Contact Form -->
+            <h4 class="mt-5">Contact Form</h4>
+            <form id="contactForm" onsubmit="return submitForm()">
+                <div class="form-group">
+                    <label for="name">First Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="contact">Contact Number</label>
+                    <input type="text" class="form-control" id="contact" placeholder="Enter your contact number">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="course">Select Course</label>
+                    <select class="form-control" id="course">
+                        <option>Data Science</option>
+                        <option>Full Stack Web Development</option>
+                        <option>Digital Marketing</option>
+                        <option>AI & ML</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="mode">Select Training Mode</label>
+                    <select class="form-control" id="mode">
+                        <option>Online</option>
+                        <option>Classroom</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 Innomatics Research Labs. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- External JavaScript File -->
+    <script src="js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+.hero {
+    background: url('https://www.innomatics.in/wp-content/uploads/2023/01/AWARD-PAGE.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.courses .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.footer p {
+    margin: 0;
+}
